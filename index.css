@@ -16,6 +16,7 @@ a {
 	font-family: "Billy";
 	font-size: 45px;
 	text-align: center;
+	position: relative;
 }
 #sofengr {
 	color: orange;
@@ -44,4 +45,65 @@ a {
   font-size: 200px;
   font-weight: bold;
   text-align: center;
+}
+
+/* @keyframes */
+@keyframes fade-in {
+	0%{
+		transform: translateY(50px);
+		opacity: 0;
+		visibility: hidden;
+	}
+	5%{
+		transform: translateY(0px);
+		opacity: 1;
+		visibility: visible;
+	}
+	25%{
+		transform: translateY(0px);
+		opacity: 1;
+		visibility: visible;
+	}
+	31%{
+		transform: translateY(-50px);
+		opacity: 0;
+		visibility: hidden;
+	}
+	100%{
+		transform: translateY(-50px);
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+#icon-1{
+	animation-name: fade-in;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s; /*5s;*/
+}
+#icon-2{
+	animation-name: fade-in;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	animation-delay: 4s; /*8s;*/
+}
+#icon-3{
+	animation-name: fade-in;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	animation-delay: 7s; /*11s;*/
+}
+#icon-4{
+	animation-name: fade-in;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	animation-delay: 10s; /*11s;*/
+}
+
+
+.icon {
+	position: absolute;
+	visibility: hidden;
+	width: 4rem;
 }

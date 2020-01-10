@@ -1,6 +1,11 @@
 html, body {
 	margin: 0;
 	background: black;
+	font-family: "Billy";
+}
+a {
+	text-decoration: none;
+	color: inherit;
 }
 @font-face {
 	font-family: "Billy";

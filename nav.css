@@ -1,0 +1,13 @@
+.nav-body {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.nav-item {
+  margin: 1rem;
+  font-size: 3rem;
+  transition: all 0.2s;
+  color: orange;
+}
+.nav-item:hover {
+  border-bottom: 3px solid orange;
+}

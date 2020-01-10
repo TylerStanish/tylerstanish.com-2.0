@@ -51,26 +51,31 @@ a {
 @keyframes fade-in {
 	0%{
 		transform: translateY(50px);
+		-webkit-transform: translateY(50px);
 		opacity: 0;
 		visibility: hidden;
 	}
 	5%{
 		transform: translateY(0px);
+		-webkit-transform: translateY(0px);
 		opacity: 1;
 		visibility: visible;
 	}
 	25%{
 		transform: translateY(0px);
+		-webkit-transform: translateY(0px);
 		opacity: 1;
 		visibility: visible;
 	}
 	31%{
 		transform: translateY(-50px);
+		-webkit-transform: translateY(-50px);
 		opacity: 0;
 		visibility: hidden;
 	}
 	100%{
 		transform: translateY(-50px);
+		-webkit-transform: translateY(-50px);
 		opacity: 0;
 		visibility: hidden;
 	}
